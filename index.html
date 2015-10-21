@@ -16,7 +16,7 @@
         width: 100%;
         height: 100%;
 
-        font-size: 1em;
+        font-size: 1.1em;
         line-height: 1.4em;
         font-family: sans-serif;
 
@@ -138,6 +138,10 @@
         color: #48F;
       }
 
+      .text-black {
+        color: #112;
+      }
+
       .text-bold {
         font-weight: bold;
       }
@@ -198,16 +202,24 @@
 
       @media only screen and (max-width: 600px) {
         html,body {
-          font-size: 0.8em;
+          font-size: 0.9em;
         }
 
         h1 {
           font-size: 3em;
         }
 
-        p {
-          font-size: 1.6em;
-          line-height: 1.6em;
+        div.page article p {
+          font-size: 1.4em;
+          line-height: 1.4em;
+        }
+
+        div.page footer {
+          margin-top: 50px;
+
+          width: 100%;
+
+          font-size: 1.2em;
         }
 
         .column-left {
@@ -277,25 +289,54 @@
         </nav>
         <nav class="site-nav text-white text-right desktop-only">
           <a class="text-white" href="#page-main">Home</a>
-          <a class="text-white" href="#tech">Tech</a>
-          <a class="text-white" href="#blog">Blog</a>
-          <a class="text-white" href="#resume">Resume</a>
-          <a class="text-white" href="#about">About</a>
+          <a class="text-white" href="#page-tech">Tech</a>
+          <a class="text-white" href="#page-blog">Blog</a>
+          <a class="text-white" href="#page-resume">Resume</a>
+          <a class="text-white" href="#page-about">About</a>
         </nav>
       </header>
       <article>
         <h1 class="margin-top-two-hundred-pixels width-half column-left text-center text-extreme text-white">Cipherboy</h1>
-        <p class="margin-top-hundred-pixels width-thirty-five-percent column-right text-left text-white">Described as an artist, a hacker, and a thinker, cipherboy, a.k.a., Alexander Scheel strives to bridge the gap between security and ease of use. While his interest in cryptography starting in the sixth grade, passion and joy still fill his play, practice, and work. When he is not studying or coding, you will often find him sequestered in a practice room perfecting his Czajkowski or Bach. This is his website; enter his realm.</p>
+        <p class="margin-top-hundred-pixels width-thirty-five-percent column-right text-left text-white">Described as a hacker, thinker, and an artist, cipherboy [a.k.a. Alexander Scheel] strives to bridge the gap between security and ease of use. While his interest in cryptography started at age 10, passion and joy fill his play, practice, and work. When he is not studying or coding, you will often find him sequestered in a practice room perfecting his Czajkowski or Bach. This is his website; enter his realm.</p>
       </article>
       <div class="clear"><p><br></p></div>
       <footer id="page-main-footer">
         <p class="width-third column-left text-right text-white mobile-text-center">
-          Copyright (C) 2015 Alexander "cipherboy" Scheel<br>
-          All rights reserved.
+          Copyright (C) 2015 Alexander "cipherboy"&nbsp;Scheel<br>
+          All rights&nbsp;reserved.
         </p>
         <p class="width-third column-right text-left text-white mobile-text-center">
-          e: <a class="text-blue" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
-          k: <a class="text-blue" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">8192-bit RSA Key</a>
+          e:&nbsp;<a class="text-blue" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
+          k:&nbsp;<a class="text-blue" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">8192-bit RSA Key</a>
+        </p>
+      </footer>
+    </div>
+    <div class="page" id="page-resume">
+      <header>
+        <nav class="site-nav text-white text-right mobile-only">
+          <a class="text-white mobile-only text-extreme" href="#mobile-menu">&#9776;</a>
+        </nav>
+        <nav class="site-nav text-white text-right desktop-only">
+          <a class="text-white" href="#page-main">Home</a>
+          <a class="text-white" href="#page-tech">Tech</a>
+          <a class="text-white" href="#page-blog">Blog</a>
+          <a class="text-white" href="#page-resume">Resume</a>
+          <a class="text-white" href="#page-about">About</a>
+        </nav>
+      </header>
+      <article>
+        <h1 class="margin-top-two-hundred-pixels width-half column-left text-center text-extreme text-white">Cipherboy</h1>
+        <p class="margin-top-hundred-pixels width-thirty-five-percent column-right text-left text-white">Described as an artist, a hacker, and a thinker, cipherboy [a.k.a. Alexander Scheel] strives to bridge the gap between security and ease of use. While his interest in cryptography started in the sixth grade, passion and joy still fill his play, practice, and work. When he is not studying or coding, you will often find him sequestered in a practice room perfecting his Czajkowski or Bach. This is his website; enter his realm.</p>
+      </article>
+      <div class="clear"><p><br></p></div>
+      <footer id="page-main-footer">
+        <p class="width-third column-left text-right text-white mobile-text-center">
+          Copyright (C) 2015 Alexander "cipherboy"&nbsp;Scheel<br>
+          All rights&nbsp;reserved.
+        </p>
+        <p class="width-third column-right text-left text-white mobile-text-center">
+          e:&nbsp;<a class="text-blue" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
+          k:&nbsp;<a class="text-blue" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">8192-bit RSA Key</a>
         </p>
       </footer>
     </div>
@@ -303,10 +344,10 @@
       <header>
         <nav class="site-nav text-left">
           <a class="text-white" href="#page-main">Home</a>
-          <a class="text-white" href="#tech">Tech</a>
-          <a class="text-white" href="#blog">Blog</a>
-          <a class="text-white" href="#resume">Resume</a>
-          <a class="text-white" href="#about">About</a>
+          <a class="text-white" href="#page-tech">Tech</a>
+          <a class="text-white" href="#page-blog">Blog</a>
+          <a class="text-white" href="#page-resume">Resume</a>
+          <a class="text-white" href="#page-about">About</a>
         </nav>
       </header>
     </div>
