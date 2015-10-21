@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cipherboy~~</title>
+    <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+    <style>
+      html,body,div,header,article,section,footer {
+        margin: 0px;
+        border: 0px transparent;
+        padding: 0px;
+      }
+
+      html,body {
+        width: 100%;
+        height: 100%;
+
+        font-size: 1em;
+        line-height: 1.4em;
+        font-family: sans-serif;
+
+        overflow: hidden;
+      }
+
+      div.page {
+        width: 100%;
+        height: 100%;
+
+        overflow-y: scroll;
+        position: relative;
+      }
+
+      div.page header {
+        width: 100%;
+        margin-top: 15px;
+      }
+
+      nav.site-nav {
+        text-decoration: none;
+
+        font-size: 1.5em;
+      }
+
+      nav.site-nav a {
+        text-decoration: none;
+
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      div.page article {
+        width: 100%;
+
+        margin-bottom: 20px;
+      }
+
+      div.page footer {
+        position: absolute;
+        bottom: 0px;
+
+        width: 100%;
+      }
+
+      .column-left {
+        display: block;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .column-right {
+        display: block;
+        float: right;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .column-center {
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin: 0 auto;
+      }
+
+      .width-half {
+        width: 48%;
+      }
+
+      .width-fourty-percent {
+        width: 40%;
+      }
+
+      .width-thirty-five-percent {
+        width: 35%;
+      }
+
+      .width-third {
+        width: 31%;
+      }
+
+      .width-fourth {
+        width: 23%;
+      }
+
+      .margin-top-fifty-pixels {
+        margin-top: 50px;
+      }
+
+      .margin-top-hundred-pixels {
+        margin-top: 100px;
+      }
+
+      .margin-top-one-fifty-pixels {
+        margin-top: 150px;
+      }
+
+      .margin-top-two-hundred-pixels {
+        margin-top: 200px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .text-left {
+        text-align: left;
+      }
+
+      .text-right {
+        text-align: right;
+      }
+
+      .text-white {
+        color: #FFF;
+      }
+
+      .text-blue {
+        color: #48F;
+      }
+
+      .text-bold {
+        font-weight: bold;
+      }
+
+      .text-larger {
+        font-size: 125% !important;
+      }
+
+      .text-largest {
+        font-size: 150% !important;
+      }
+
+      .text-extreme {
+        font-size: 200% !important;
+      }
+
+      .text-monospace {
+        font-family: "Anonymous Pro", "Bitstream Vera Sans Mono", monospace;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      #page-main {
+        background: url("img/home-background.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      #mobile-menu {
+        background-color: #DDD;
+      }
+
+      #mobile-menu nav {
+        margin-top: -15px;
+
+        font-size: 2em;
+        line-height: 2em;
+      }
+
+      #mobile-menu nav a {
+        display: block;
+
+        border-bottom: 1px solid #000;
+      }
+
+      .site-nav a:active {
+        color: #48F;
+      }
+
+      .mobile-only {
+        display: none;
+      }
+
+      .desktop-only {
+        display: block;
+      }
+
+      @media only screen and (max-width: 600px) {
+        html,body {
+          font-size: 0.8em;
+        }
+
+        h1 {
+          font-size: 3em;
+        }
+
+        p {
+          font-size: 1.6em;
+          line-height: 1.6em;
+        }
+
+        div.page footer {
+          position: relative;
+        }
+
+        .column-left {
+          display: block;
+          float: none;
+          width: 90%;
+          margin: 0 auto;
+        }
+
+        .column-right {
+          display: block;
+          float: none;
+          width: 90%;
+          margin: 0 auto;
+        }
+
+        .column-center {
+          display: block;
+          width: 90%;
+          float: none;
+          margin: 0 auto;
+        }
+
+        .mobile-only {
+          visibility: visible !important;
+          display: block !important;
+        }
+
+        .desktop-only {
+          visibility: collapse !important;
+          display: none !important;
+        }
+
+        .mobile-text-center {
+          text-align: center !important;
+        }
+      }
+    </style>
+    <script>
+    </script>
+  </head>
+  <body>
+    <!--
+      Map!
+
+                                +======+  +========+
+                                | Blog |  | GitHub |
+                                +======+  +========+
+                                   ||         ||
+                      +======+  +======+  +========+  +======+
+                      | Tech |==| Home |==| Resume |==| Work |
+                      +======+  +======+  +========+  +======+
+                                   ||         ||
+                   +========+  +=======+  +========+
+                   | Photos |==| About |  | School |
+                   +========+  +=======+  +========+
+                                   ||
+                               +=======+
+                               | Music |
+                               +=======+
+
+    -->
+    <div class="page text-monospace" id="page-main">
+      <header>
+        <nav class="site-nav text-white text-right mobile-only">
+          <a class="text-white mobile-only text-extreme" href="#mobile-menu">&#9776;</a>
+        </nav>
+        <nav class="site-nav text-white text-right desktop-only">
+          <a class="text-white" href="#page-main">Home</a>
+          <a class="text-white" href="#tech">Tech</a>
+          <a class="text-white" href="#blog">Blog</a>
+          <a class="text-white" href="#resume">Resume</a>
+          <a class="text-white" href="#about">About</a>
+        </nav>
+      </header>
+      <article>
+        <h1 class="margin-top-two-hundred-pixels width-half column-left text-center text-extreme text-white">Cipherboy</h1>
+        <p class="margin-top-hundred-pixels width-thirty-five-percent column-right text-left text-white">Described as an artist, a hacker, and a thinker, cipherboy, a.k.a., Alexander Scheel strives to bridge the gap between security and ease of use. While his interest in cryptography starting in the sixth grade, passion and joy still fill his play, practice, and work. When he is not studying or coding, you will often find him sequestered in a practice room perfecting his Czajkowski or Bach. This is his website; enter his realm.</p>
+      </article>
+      <div class="clear"><p><br></p></div>
+      <footer id="page-main-footer">
+        <p class="width-third column-left text-right text-white mobile-text-center">
+          Copyright (C) 2015 Alexander "cipherboy" Scheel<br>
+          All rights reserved.
+        </p>
+        <p class="width-third column-right text-left text-white mobile-text-center">
+          e: <a class="text-blue" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
+          k: <a class="text-blue" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">8192-bit RSA Key</a>
+        </p>
+      </footer>
+    </div>
+    <div class="mobile-only page text-monospace" id="mobile-menu">
+      <header>
+        <nav class="site-nav text-left">
+          <a class="text-white" href="#page-main">Home</a>
+          <a class="text-white" href="#tech">Tech</a>
+          <a class="text-white" href="#blog">Blog</a>
+          <a class="text-white" href="#resume">Resume</a>
+          <a class="text-white" href="#about">About</a>
+        </nav>
+      </header>
+    </div>
+  </body>
+</html>
