@@ -51,6 +51,8 @@ div.page article {
 div.page footer {
   margin-top: 150px;
 
+  font-size: 0.9em;
+
   width: 100%;
 }
 
@@ -62,23 +64,6 @@ div.page footer {
 #page-resume {
   background: url("../img/resume-background.jpg") no-repeat right top fixed;
   background-size: cover;
-}
-
-#mobile-menu {
-  background-color: #DDD;
-}
-
-#mobile-menu nav {
-  margin-top: -15px;
-
-  font-size: 2em;
-  line-height: 2em;
-}
-
-#mobile-menu nav a {
-  display: block;
-
-  border-bottom: 1px solid #000;
 }
 
 .site-nav a:active {
