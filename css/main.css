@@ -60,6 +60,10 @@ div.page footer {
   width: 100%;
 }
 
+div.page {
+  background-color: #112;
+}
+
 #page-main {
   background: url("../img/home-background.jpg") no-repeat center center fixed;
   background-size: cover;
