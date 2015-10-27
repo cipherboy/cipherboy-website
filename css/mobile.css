@@ -10,14 +10,17 @@
   background-color: #FFF;
 }
 
-#mobile-menu nav {
-  margin-top: -15px;
+#mobile-menu nav.site-icons {
+  padding-top: 13px;
+  height: 48px;
+}
 
+#mobile-menu nav.site-nav {
   font-size: 2em;
   line-height: 2em;
 }
 
-#mobile-menu nav a {
+#mobile-menu nav.site-nav a {
   display: block;
 
   border-bottom: 1px solid #000;
