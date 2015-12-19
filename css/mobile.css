@@ -36,12 +36,12 @@
     font-size: 3em;
   }
 
-  div.page article p {
+  section.page article p {
     font-size: 1.4em;
     line-height: 1.4em;
   }
 
-  div.page footer {
+  section.page footer {
     margin-top: 50px;
 
     width: 100%;

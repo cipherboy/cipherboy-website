@@ -19,18 +19,41 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
 
-div.page {
+div.content {
   width: 100%;
   height: 100%;
 
   overflow-y: auto;
   overflow-x: hidden;
-  position: relative;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  z-index: 10;
 }
 
-div.page header {
+header {
   width: 100%;
   margin-top: 15px;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  z-index: 100;
+}
+
+section.page {
+  width: 100%;
+  min-height: calc(100% - 55px);
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding-top: 55px;
+
+  position: relative;
 }
 
 nav.site-nav {
@@ -68,7 +91,7 @@ div.page footer {
   width: 100%;
 }
 
-div.page {
+section.page {
   background-color: #012;
 }
 
@@ -80,6 +103,12 @@ div.page {
 #page-resume {
   background: url("../img/resume-background.jpg") no-repeat right top fixed;
   background-size: cover;
+}
+
+#mobile-menu {
+  border-top: 55px solid #000;
+
+  background-color: #ffffff;
 }
 
 .site-nav a:active {

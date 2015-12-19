@@ -15,7 +15,7 @@
     <script>
     </script>
   </head>
-  <body>
+  <body class="text-monospace">
     <!--
       Map!
 
@@ -36,132 +36,83 @@
                                +=======+
 
     -->
-    <div class="page text-monospace" id="page-main">
-      <header id="page-main-header">
-        <nav class="site-nav text-white text-right mobile-only">
-          <a class="text-white mobile-only text-extreme padding-top-five-pixels" href="#mobile-menu">&#9776;</a>
-        </nav>
-        <nav class="site-nav text-white text-right column-left desktop-only">
-          <a class="text-white" href="#page-main">Home</a><a class="text-white" href="#page-tech">Tech</a><a class="text-white" href="#page-blog">Blog</a><a class="text-white" href="#page-resume">Resume</a>
-        </nav>
-        <nav class="site-icons padding-left-five-pixels text-left column-right desktop-only">
-          <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
-          <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-          <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
-          <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
-        </nav>
-        <div class="clear"></div>
-      </header>
-      <article id="page-main-article" class="mobile-shading-black no-mobile-margin no-mobile-padding">
-        <h1 class="margin-top-one-fifty-pixels padding-five-pixels width-half column-left text-center text-extreme text-white">cipherboy</h1>
-        <p class="margin-top-fifty-pixels padding-five-pixels width-thirty-five-percent column-right text-left text-white">Described as a hacker, thinker, and an artist, cipherboy [a.k.a. Alexander Scheel] strives to bridge the gap between security and ease of use. While his interest in cryptography started at age 10, passion and joy fill his play, practice, and work. When he is not studying or coding, you will often find him sequestered in a practice room perfecting his Czajkowski or Bach. As he gets the time, he will begin forming common sources and blog posts on security, mathematics, and cryptography.</p>
-      </article>
-      <div class="clear"><p><br></p></div>
-      <footer id="page-main-footer">
-        <p class="width-third column-left text-right text-white mobile-text-center">
-          Copyright (C) 2015 Alexander Scheel<br>
-          Photography by Bliss Photography, LLC<br>{www.blissphotographymn.com}
-        </p>
-        <p class="width-third column-right text-left text-white mobile-text-center">
-          e:&nbsp;<a class="text-blue" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
-          k:&nbsp;<a class="text-blue" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">8192-bit RSA Key</a>
-        </p>
-      </footer>
-    </div>
-    <div class="page text-monospace" id="page-tech">
-      <header id="page-tech-header">
-        <!-- Copied from page-main -->
-        <nav class="site-nav text-white text-right mobile-only">
-          <a class="text-white mobile-only text-extreme padding-top-five-pixels" href="#mobile-menu">&#9776;</a>
-        </nav>
-        <nav class="site-nav text-white text-right column-left desktop-only">
-          <a class="text-white" href="#page-main">Home</a><a class="text-white" href="#page-tech">Tech</a><a class="text-white" href="#page-blog">Blog</a><a class="text-white" href="#page-resume">Resume</a>
-        </nav>
-        <nav class="site-icons padding-left-five-pixels text-left column-right desktop-only">
-          <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
-          <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-          <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
-          <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
-        </nav>
-        <div class="clear"></div>
-      </header>
-      <article class="mobile-shading-black text-white">
-          <h1 class="padding-five-pixels">Projects</h1>
+    <header id="page-header">
+      <nav class="site-nav text-white text-right mobile-only">
+        <a class="text-white mobile-only text-extreme padding-top-five-pixels" href="#mobile-menu">&#9776;</a>
+      </nav>
+      <nav class="site-nav text-white text-right column-left desktop-only">
+        <a class="text-white" href="#page-main">Home</a><a class="text-white" href="#page-tech">Tech</a><a class="text-white" href="#page-blog">Blog</a><a class="text-white" href="#page-resume">Résumé</a>
+      </nav>
+      <nav class="site-icons padding-left-five-pixels text-left column-right desktop-only">
+        <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
+        <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
+        <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
+        <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
+      </nav>
+      <div class="clear"></div>
+    </header>
+    <div class="content">
+      <section class="page" id="page-main">
+        <article id="page-main-article" class="mobile-shading-black no-mobile-margin no-mobile-padding">
+          <h1 class="margin-top-one-fifty-pixels padding-five-pixels width-half column-left text-center text-extreme text-white">cipherboy</h1>
+          <p class="margin-top-fifty-pixels padding-five-pixels width-thirty-five-percent column-right text-left text-white">Described as a hacker, thinker, and an artist, cipherboy [a.k.a. Alexander Scheel] strives to bridge the gap between security and ease of use. While his interest in cryptography started at age 10, passion and joy fill his play, practice, and work. When he is not studying or coding, you will often find him sequestered in a practice room perfecting his Czajkowski or Bach. As he gets the time, he will begin forming common sources and blog posts on security, mathematics, and cryptography.</p>
+        </article>
+        <div class="clear"><p><br></p></div>
+        <footer id="page-main-footer">
+          <p class="width-third column-left text-right text-white mobile-text-center">
+            Copyright (C) 2015 Alexander Scheel<br>
+            Photography by Bliss Photography, LLC<br>{www.blissphotographymn.com}
+          </p>
+          <p class="width-third column-right text-left text-white mobile-text-center">
+            e:&nbsp;<a class="text-blue" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
+            k:&nbsp;<a class="text-blue" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">8192-bit RSA Key</a>
+          </p>
+        </footer>
+      </section>
+      <section class="page" id="page-tech">
+        <article class="mobile-shading-black text-white">
+          <h1 class="padding-five-pixels margin-top-fifty-pixels no-mobile-margin">Projects</h1>
           <div class="padding-five-pixels">
-              <p>A comprehensive list of projects will be coming soon</p>
+              <p>A comprehensive list of projects will be coming soon.</p>
           </div>
-      </article>
-      <div class="clear"><p><br></p></div>
-    </div>
-    <div class="page text-monospace" id="page-blog">
-      <header>
-        <!-- Copied from page-main -->
-        <nav class="site-nav text-white text-right mobile-only">
-          <a class="text-white mobile-only text-extreme padding-top-five-pixels" href="#mobile-menu">&#9776;</a>
-        </nav>
-        <nav class="site-nav text-white text-right column-left desktop-only">
-          <a class="text-white" href="#page-main">Home</a><a class="text-white" href="#page-tech">Tech</a><a class="text-white" href="#page-blog">Blog</a><a class="text-white" href="#page-resume">Resume</a>
-        </nav>
-        <nav class="site-icons padding-left-five-pixels text-left column-right desktop-only">
-          <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
-          <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-          <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
-          <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
-        </nav>
-        <div class="clear"></div>
-      </header>
-      <article class="mobile-shading-black text-white">
-          <h1 class="padding-five-pixels">Blog</h1>
+        </article>
+      </section>
+      <section class="page" id="page-blog">
+        <article class="mobile-shading-black text-white">
+          <h1 class="padding-five-pixels margin-top-fifty-pixels no-mobile-margin">Blog</h1>
           <div class="padding-five-pixels">
               <p>A blog will be coming soon.</p>
           </div>
-      </article>
-      <div class="clear"><p><br></p></div>
-    </div>
-    <div class="page text-monospace" id="page-resume">
-      <header>
-        <!-- Copied from page-main -->
-        <nav class="site-nav text-white text-right mobile-only">
-          <a class="text-white mobile-only text-extreme padding-top-five-pixels" href="#mobile-menu">&#9776;</a>
-        </nav>
-        <nav class="site-nav text-white text-right column-left desktop-only">
-          <a class="text-white" href="#page-main">Home</a><a class="text-white" href="#page-tech">Tech</a><a class="text-white" href="#page-blog">Blog</a><a class="text-white" href="#page-resume">Resume</a>
-        </nav>
-        <nav class="site-icons padding-left-five-pixels text-left column-right desktop-only">
-          <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
-          <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-          <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
-          <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
-        </nav>
-        <div class="clear"></div>
-      </header>
-      <article class="mobile-shading-black">
-        <div class="margin-top-hundred-pixels padding-left-fifty-pixels width-half column-left text-left text-white no-mobile-margin no-mobile-padding">
-          <h1 class="padding-five-pixels">Resume</h1>
-          <p class="padding-five-pixels">
-            cipherboy is currently looking for internships during the summer of 2016 or for any freelance development work; don't hesitate to contact him if you have any openings. He is primarily interested in security and cryptography, particularly in their applications to the web.<br><br>
-            <span class="text-blue">[<a class="text-blue" href="http://cipherboy.github.io/Resume/Alexander_Scheel_Resume.html">tech resume</a>]</span><br>
-            <span class="text-blue">[<a class="text-blue" href="http://cipherboy.github.io/Resume/Alexander_Scheel_Music_Resume.html">music resume</a>]</span><br>
-          </p>
-        </div>
-      </article>
-      <div class="clear"><p><br></p></div>
-    </div>
-    <div class="mobile-only page text-monospace no-mobile-margin no-mobile-padding" id="mobile-menu">
-      <header class="no-mobile-margin no-mobile-padding">
-        <nav class="site-icons mobile-shading-black text-center">
-          <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
-          <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-          <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
-          <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
-        </nav>
-        <nav class="site-nav text-left">
-          <a class="text-black" href="#page-main">&raquo;&nbsp;Home</a>
-          <a class="text-black" href="#page-tech">&raquo;&nbsp;Tech</a>
-          <a class="text-black" href="#page-blog">&raquo;&nbsp;Blog</a>
-          <a class="text-black" href="#page-resume">&raquo;&nbsp;Resume</a>
-        </nav>
-      </header>
+        </article>
+      </section>
+      <section class="page" id="page-resume">
+        <article class="mobile-shading-black">
+          <div class="margin-top-hundred-pixels padding-left-fifty-pixels width-half column-left text-left text-white no-mobile-margin no-mobile-padding">
+            <h1 class="padding-five-pixels">Résumé</h1>
+            <p class="padding-five-pixels">
+              cipherboy is currently looking for internships during the summer of 2016 or for any freelance development work; don't hesitate to contact him if you have any serious openings. He is primarily interested in security and cryptography, particularly in their applications to the web.<br><br>
+              <span class="text-blue">[<a class="text-blue" href="http://cipherboy.github.io/Resume/Alexander_Scheel_Resume.html">tech resume</a>]</span><br>
+              <span class="text-blue">[<a class="text-blue" href="http://cipherboy.github.io/Resume/Alexander_Scheel_Music_Resume.html">music resume</a>]</span><br>
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="page mobile-only no-mobile-margin no-mobile-padding" id="mobile-menu">
+        <article class="no-mobile-margin no-mobile-padding">
+          <nav class="site-icons mobile-shading-black text-center">
+            <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
+            <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
+            <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
+            <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
+          </nav>
+          <nav class="site-nav text-left">
+            <a class="text-black" href="#page-main">&raquo;&nbsp;Home</a>
+            <a class="text-black" href="#page-tech">&raquo;&nbsp;Tech</a>
+            <a class="text-black" href="#page-blog">&raquo;&nbsp;Blog</a>
+            <a class="text-black" href="#page-resume">&raquo;&nbsp;Resume</a>
+          </nav>
+        </article>
+      </section>
     </div>
   </body>
 </html>
