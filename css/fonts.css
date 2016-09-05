@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anonymous Pro'), local('AnonymousPro'), url(https://cipherboy.com/fonts/Zhfjj_gat3waL4JSju74Eyepy_bK1QysdtOeR9F4Ffs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Anonymous Pro Bold'), local('AnonymousPro-Bold'), url(https://cipherboy.com/fonts/WDf5lZYgdmmKhO8E1AQud_PUlNJBs1LjT_hi6_KOI-I.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Anonymous Pro Italic'), local('AnonymousPro-Italic'), url(https://cipherboy.com/fonts/q0u6LFHwttnT_69euiDbWHYERyxqu4bunGuIRUtIkRI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Anonymous Pro Bold Italic'), local('AnonymousPro-BoldItalic'), url(https://cipherboy.com/fonts/_fVr_XGln-cetWSUc-JpfG5LgoF-04rdOuVmAyCISpg.ttf) format('truetype');
+}
