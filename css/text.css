@@ -26,6 +26,14 @@
   font-weight: bold;
 }
 
+.text-smallest {
+  font-size: 50% !important;
+}
+
+.text-smaller {
+  font-size: 85% !important;
+}
+
 .text-larger {
   font-size: 125% !important;
 }

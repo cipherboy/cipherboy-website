@@ -14,33 +14,45 @@
     <link rel="stylesheet" href="css/mobile.css">
   </head>
   <body class="text-monospace">
-    <header id="page-header">
-      <nav class="site-icons padding-left-five-pixels text-left column-right">
-        <a class="text-white" href="#page-main"><img class="site-logo" src="img/icon-original.png" alt="Home"></a>
-        <a class="text-white" href="https://github.com/cipherboy"><img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-        <a class="text-white" href="mailto:alexander.m.scheel@gmail.com"><img class="site-logo" src="img/email-128.png" alt="Email"></a>
-        <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E"><img class="site-logo" src="img/key-128.png" alt="Email"></a>
-      </nav>
-      <div class="clear"></div>
+    <header id="page-sidebar">
+      <div id="face-container" class="text-center text-white">
+        <img id="face" src="img/face-round.png" alt="Alex Scheel">
+        <h1>cipherboy~</h1>
+      </div>
+      <p class="text-white">
+        <b>Alexander Scheel</b> is a software developer at <a class="text-white" href="https://www.redhat.com" target="_blank">Red Hat</a> working on <a class="text-white" href="https://www.redhat.com/en/technologies/cloud-computing/certificate-system" target="_blank">Red Hat Certificate System</a>.
+        He is the current maintainer of <a class="text-white" href="https://dogtagpki.github.io/jss" target="_blank">JSS</a>, a <a class="text-white" href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS" target="_blank">NSS</a> wrapper for Java.
+        He is a strong advocate for Open Source and <a class="text-white" href="https://g.cipherboy.com/papers" target="_blank">Open Access research</a>.
+        Alex contributes to various projects on <a class="text-white" href="https://g.cipherboy.com" target="_blank">GitHub</a> and to the <a class="text-white" href="https://src.fedoraproject.org/user/cipherboy" target="_blank">Fedora Package Ecosystem</a> (including the <a class="text-white" href="https://decathorpe.fedorapeople.org/stewardship-sig.html" target="_blank">Stewardship SIG</a>) under the nickname <b>cipherboy</b>.
+        In his free time, he studies violin and enjoys taking photographs of the places he goes.
+      </p>
     </header>
-    <div class="content">
-      <section class="page" id="page-main">
-        <article id="page-main-article" class="mobile-shading-black no-mobile-margin no-mobile-padding">
-          <h1 class="margin-top-one-fifty-pixels padding-five-pixels width-half column-left text-center text-extreme text-white">cipherboy~</h1>
-          <p class="margin-top-fifty-pixels padding-five-pixels width-thirty-five-percent column-right text-left text-white">This is the personal website of Alexander Scheel; most of its contents are shared privately. He is currently employed at <a class="text-white" href="https://redhat.com" target="_blank">Red Hat, Inc.</a> and works on <a class="text-white" href="https://www.redhat.com/en/technologies/cloud-computing/certificate-system" target="_blank">Red Hat Certificate System</a>.</p>
-        </article>
-        <div class="clear"><p><br></p></div>
-        <footer id="page-main-footer">
-          <p class="width-third column-left text-right text-white mobile-text-center">
-            Copyright (C) 2016, 2019 Alexander Scheel<br>
-          </p>
-          <p class="width-third column-right text-left text-white mobile-text-center">
-            e:&nbsp;<a class="text-white" href="mailto:alexander.m.scheel@gmail.com">alexander.m.scheel@gmail.com</a><br>
-            k:&nbsp;<a class="text-white" href="BDC5F518A973035E.gpg" target="_blank">GPG Key</a> -- <a class="text-white" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xBDC5F518A973035E" target="_blank">(MIT)</a><br>
-            r:&nbsp;<a class="text-white" href="http://cipherboy.github.io/Resume/Alexander_Scheel_Resume.html" target="_blank">Résumé</a><br>
-          </p>
-        </footer>
-      </section>
+    <nav class="site-icons text-left text-white text-smaller">
+      <div class="flexbox">
+          <div class="flexbox-item">
+            <a class="text-white" href="https://github.com/cipherboy">
+              <img class="site-logo" src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"> GitHub
+            </a>
+          </div>
+          <div class="flexbox-item">
+            <a class="text-white" href="mailto:alexander.m.scheel@gmail.com">
+              <img class="site-logo" src="img/email-128.png" alt="Email"> Email
+            </a>
+          </div>
+          <div class="flexbox-item">
+            <a class="text-white" href="BDC5F518A973035E.gpg">
+              <img class="site-logo" src="img/key-128.png" alt="Email"> GPG Key
+            </a>
+          </div>
+          <div class="flexbox-item">
+            <a class="text-white" href="https://photos.cipherboy.com/wallpapers/">
+              <img class="site-logo" src="img/photos-128.png" alt="Photos"> Wallpaper Gallery
+            </a>
+          </div>
+        </div>
+    </nav>
+    <div id="footer-container" class="text-center text-smaller text-white">
+        Copyright (C) 2019 Alexander Scheel
     </div>
   </body>
 </html>
