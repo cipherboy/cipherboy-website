@@ -24,6 +24,7 @@ body {
 }
 
 header h1 {
+  padding-top: 15px;
   font-weight: normal;
 }
 
@@ -100,6 +101,6 @@ nav a {
     margin-bottom: auto;
 }
 
-nav, div#footer-container {
+header p, nav, div#footer-container {
   margin-top: 25px;
 }
