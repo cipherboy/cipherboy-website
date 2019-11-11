@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anonymous Pro'), local('AnonymousPro'), url(https://cipherboy.com/fonts/Zhfjj_gat3waL4JSju74Eyepy_bK1QysdtOeR9F4Ffs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Anonymous Pro Bold'), local('AnonymousPro-Bold'), url(https://cipherboy.com/fonts/WDf5lZYgdmmKhO8E1AQud_PUlNJBs1LjT_hi6_KOI-I.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Anonymous Pro Italic'), local('AnonymousPro-Italic'), url(https://cipherboy.com/fonts/q0u6LFHwttnT_69euiDbWHYERyxqu4bunGuIRUtIkRI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Anonymous Pro Bold Italic'), local('AnonymousPro-BoldItalic'), url(https://cipherboy.com/fonts/_fVr_XGln-cetWSUc-JpfG5LgoF-04rdOuVmAyCISpg.ttf) format('truetype');
+}
+html,body,nav,div,header,article,section,footer {
+  margin: 0px;
+  border: 0px transparent;
+  padding: 0px;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+
+  font-size: 0.95em;
+  line-height: 1.3em;
+  font-family: sans-serif;
+
+  background-color: #61788C;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header h1 {
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+div#face-container {
+  height: 100%;
+  width: 100%;
+}
+
+img#face {
+  border-radius: 50%;
+  max-width: 25%;
+  max-height: 25%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+header p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+nav {
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.site-logo {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -8px;
+}
+
+/* Flexbox generator: https://the-echoplex.net/flexyboxes/ */
+
+.flexbox {
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flexbox-item {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header p, nav, div#footer-container {
+  margin-top: 25px;
+}
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  html,body {
+    width: 100% !important;
+  }
+
+  img#face {
+    width: 35%;
+    max-width: 35% !important;
+    max-height: 35% !important;
+  }
+
+  header p {
+    width: 80% !important;
+  }
+
+  nav {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 707px) {
+  html,body {
+    font-size: 0.9em;
+    width: 100% !important;
+  }
+
+  img#face {
+    width: 50%;
+    max-width: 50% !important;
+    max-height: 50% !important;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  header p {
+    width: 90% !important;
+  }
+
+  nav {
+    width: 90% !important;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.text-blue {
+  color: #48F;
+}
+
+.text-black {
+  color: #112;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-smallest {
+  font-size: 50% !important;
+}
+
+.text-smaller {
+  font-size: 85% !important;
+}
+
+.text-larger {
+  font-size: 125% !important;
+}
+
+.text-largest {
+  font-size: 150% !important;
+}
+
+.text-extreme {
+  font-size: 200% !important;
+}
+
+.text-monospace {
+  font-family: "Anonymous Pro", "Bitstream Vera Sans Mono", monospace;
+}
