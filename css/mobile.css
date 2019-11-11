@@ -12,6 +12,7 @@
   }
 
   img#face {
+    width: 35%;
     max-width: 35% !important;
     max-height: 35% !important;
   }
@@ -32,6 +33,7 @@
   }
 
   img#face {
+    width: 50%;
     max-width: 50% !important;
     max-height: 50% !important;
   }
